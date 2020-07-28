@@ -55,7 +55,26 @@ var name: james
 func method(){
 }
 ~~~
-여기서 MARK : 뒤에 <code>-</code>를 붙여주면 구분선이 생긴다.
-     
-## Summary
+여기서 MARK : 뒤에 <code>-</code>를 붙여주면 구분선이 생긴다.    
+- AVFoundation
+> AVFoundation은 다양한 Apple 플랫폼에서 사운드 및 영상 미디어의 처리, 제어, 가져오기 및 내보내기 등 광범위한 기능을 제공하는 프레임워크입니다.   
+
+- 주요 기능
+> 미디어 재생 및 편집
+> 디바이스 카메라와 마이크를 이용한 영상 녹화 및 사운드 녹음
+> 시스템 사운드 제어
+> 문자의 음성화   
+
+## 3. Foundation과 UIKit 그리고 Cocoa Touch
+> __Cocoa Touch 프레임워크란?__    
+>> 먼저 <code>코코아(Cocoa)</code>라는 단어는, <code>NSObject</code>를 상속받는 모든 클래스, 모든 객체를 가리킬 때 사용하는 단어다.   
+## 4. Auto Layout
+
+## 5. iOS의 View 체계
+
+## 6. MVC
+
+## 7. Apple Developer Documentation
+
+## 8. Summary
 
