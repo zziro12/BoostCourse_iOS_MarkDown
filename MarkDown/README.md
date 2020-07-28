@@ -82,3 +82,4 @@ ex)
 ![ZootopiaImage](/zootopia.jpg "Zootopia Optonal title")
 ~~~
 ![ZootopiaImage](/zootopia.jpg "Zootopia Optonal title")
+![ZootopiaImage](zootopia.jpg "Zootopia Optonal title")
