@@ -30,8 +30,20 @@ GitHub를 통해 각광받기 시작했고 MD을 통해 소스설명, 프로젝�
 ###### 헤더 h6
 1~6 까지 지원한다.   
 ### 2.3 Code Blocks(코드 블럭)
-<code>```</code> 혹은 <code>~~~</code>
-
+<code>```</code> 혹은 <code>~~~</code>   
+~~~
+<code> 쓸내용 <code>
+~~~
+를 사용해서 나타낼수 있다.   
+<code>
+처음~~~옆에 타입을 지정해줄수도 있다.
+java, c, javascript 등
+ex)  ~~~java
+void func(){
+printf("print code");
+}
+<code>~~~</code> 
+</code>
 
 
 
