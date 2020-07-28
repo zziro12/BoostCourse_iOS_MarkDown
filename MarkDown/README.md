@@ -29,7 +29,7 @@ GitHub를 통해 각광받기 시작했고 MD을 통해 소스설명, 프로젝�
 ##### 헤더 h5
 ###### 헤더 h6
 1~6 까지 지원한다.   
-### 2.3 Code Blocks(코드 블럭)
+### 2.3 Code Block(코드 블럭)
 <code>```</code> 혹은 <code>~~~</code>   
 ~~~
 <code> 쓸내용 <code>
@@ -44,15 +44,24 @@ ex)  ~~~java
         }
      ~~~ 
 ~~~
-### 2.4 Links(링크)
-인라인 링크   
+### 2.4 Link(링크)
+-인라인 링크   
 ~~~
 [Github](github.com,"git")
 ~~~
 [Github](github.com,"git")   
-URL링크   
+-URL링크   
 ~~~
 <http://google.com/>
 ~~~
 <http://google.com/>   
-
+### 2.5 List(리스트)
+<code>*</code>,<code>+</code>,<code>-</code>로 시작.  
+~~~
+-list1
+-list2
+-list3
+~~~
+-list1
+-list2
+-list3
