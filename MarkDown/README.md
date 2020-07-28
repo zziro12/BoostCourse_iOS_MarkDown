@@ -82,7 +82,7 @@ ex)
 ![ZootopiaImage](zootopia.jpg "Zootopia Optonal title")
 ~~~
 ![ZootopiaImage](zootopia.jpg "Zootopia Optonal title")   
-사이즈 조절은 html태그 <code>"<img width="" height=""></img>"</code>를 이용한다.   
+사이즈 조절은 html태그 <code><img></img></code>를 이용한다.   
 ~~~
 <img src="zootopia.jpg" width="500px" height="300px" title="set width height px" alt="zootopia"></img><br/>
 <img src="zootopia.jpg" width="30%" height="30%" title="set width height %" alt="zootopia"></img>
