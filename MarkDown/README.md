@@ -65,3 +65,11 @@ ex)  ~~~java
 - list1
 + list2
 * list3
+### 2.6 Emphasis(강조)
+굵게 쓰기(bold) : <code>**</code> 또는 <code>__</code>로 감싼 텍스트
+기울여 쓰기(italic) : <code>*</code> 또는 <code>_</code>로 감싼 텍스트
+~~~
+
+~~~
+**굵게 강조하여 쓰기1** __굵게 강조하여 쓰기1__
+*기울여 쓰기1* _기울여 쓰기2_
