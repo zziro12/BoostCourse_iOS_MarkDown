@@ -35,16 +35,15 @@ GitHub를 통해 각광받기 시작했고 MD을 통해 소스설명, 프로젝�
 <code> 쓸내용 <code>
 ~~~
 를 사용해서 나타낼수 있다.   
-<code>
+~~~
 처음~~~옆에 타입을 지정해줄수도 있다.
 java, c, javascript 등
 ex)  ~~~java
-void func(){
-printf("print code");
-}
-<code>~~~</code> 
-</code>
-
+        void func(){
+            printf("print code");
+        }
+     ~~~ 
+~~~
 
 
 
