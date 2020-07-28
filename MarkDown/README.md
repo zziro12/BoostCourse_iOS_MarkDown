@@ -73,4 +73,12 @@ ex)  ~~~java
 *기울여 쓰기1* _기울여 쓰기2_   
 ~~~
 **굵게 강조하여 쓰기1**     __굵게 강조하여 쓰기2__   
-*기울여 쓰기1*   _기울여 쓰기2_   
+*기울여 쓰기1*   _기울여 쓰기2_    
+### 2.7 image(이미지)
+~~~
+format
+![image title](/path/imagename.jpg or png,gif... "Optional title")
+ex)
+![ZootopiaImage](/zootopia.jpg "Zootopia Optonal title")
+~~~
+![ZootopiaImage](/zootopia.jpg "Zootopia Optonal title")

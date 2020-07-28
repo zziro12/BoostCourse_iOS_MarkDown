@@ -68,6 +68,10 @@ func method(){
 ## 3. Foundation과 UIKit 그리고 Cocoa Touch
 > __Cocoa Touch 프레임워크란?__    
 >> 먼저 <code>코코아(Cocoa)</code>라는 단어는, <code>NSObject</code>를 상속받는 모든 클래스, 모든 객체를 가리킬 때 사용하는 단어다.   
+>> 코코아 터치 프레임워크란 iOS 개발 환경을 구축하기 위한 최상위 프레임워크다.   
+>> 즉, 일반적으로 iOS개발을 위해 <code>Object-C</code> 혹은 <code>Swift</code>에서 상속하여 사용하는 <code>UIkit</code>, <code>Foundation</code>을 포함한 대부분의 클래스, 객체들이 모두 코코아 터치 프레임워크에 속한다.   
+>> 참고로 비슷한 이름의 <code>코코아 프레임워크</code>는 <code>macOS</code>개발 환경을 위한 프레임워크라고 한다. 그렇기 때문에, 아이폰, 아이패드 등의 <code>터치기반</code>의 iOS 개발환경에 <code>코코아 터치 프레임워크</code>라는 이름이 붙게된 것 같다.   
+
 ## 4. Auto Layout
 
 ## 5. iOS의 View 체계
