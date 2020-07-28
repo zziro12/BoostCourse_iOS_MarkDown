@@ -45,12 +45,12 @@ ex)  ~~~java
      ~~~ 
 ~~~
 ### 2.4 Link(링크)
--인라인 링크   
+- 인라인 링크   
 ~~~
 [Github](github.com,"git")
 ~~~
 [Github](github.com,"git")   
--URL링크   
+- URL링크   
 ~~~
 <http://google.com/>
 ~~~
@@ -58,10 +58,10 @@ ex)  ~~~java
 ### 2.5 List(리스트)
 <code>*</code>,<code>+</code>,<code>-</code>로 시작.  
 ~~~
--list1
--list2
--list3
+- list1
++ list2
+* list3
 ~~~
--list1
--list2
--list3
+- list1
++ list2
+* list3
