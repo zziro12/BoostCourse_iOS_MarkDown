@@ -183,8 +183,11 @@ class test{
 > <code>MVP</code>, <code>MVVM</code>, <code>Viper</code>, <code>Clean Architecture</code>, <code>Flux</code>, <code>Redux</code>, <code>RxMVVM</code>….   
 
 ## 7. Apple Developer Documentation
-
-## 8. Summary
+### 프로젝트 진행중 막히는 부분 자료 참조하며 애플리케이션에 구현할 기능(프로퍼티)이나 작동방법(메서드)을 숙지
+#### <https://developer.apple.com/>
+#### Xcode 퀵헬프
+#### Xcode 메뉴 > Help > Developer Documentation
+#### Xcode 클래스위 커서 + Alt(Option) + 클릭
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
