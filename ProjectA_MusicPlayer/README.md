@@ -71,7 +71,18 @@ func method(){
 >> 코코아 터치 프레임워크란 iOS 개발 환경을 구축하기 위한 최상위 프레임워크다.   
 >> 즉, 일반적으로 iOS개발을 위해 <code>Object-C</code> 혹은 <code>Swift</code>에서 상속하여 사용하는 <code>UIkit</code>, <code>Foundation</code>을 포함한 대부분의 클래스, 객체들이 모두 코코아 터치 프레임워크에 속한다.   
 >> 참고로 비슷한 이름의 <code>코코아 프레임워크</code>는 <code>macOS</code>개발 환경을 위한 프레임워크라고 한다. 그렇기 때문에, 아이폰, 아이패드 등의 <code>터치기반</code>의 iOS 개발환경에 <code>코코아 터치 프레임워크</code>라는 이름이 붙게된 것 같다.   
-<img src="cocoatouch.png" width="30%" height="30%" title="CocoaTouch" alt="CocoaTouch">   
+>> <img src="cocoatouch.png" width="30%" height="30%" title="CocoaTouch" alt="CocoaTouch">   
+> __UIKit 이란?__   
+>> <code>UI(User Interface)</code>라는 이름에서 알 수 있듯이, UIKit 프레임워크는 사용자의 인터페이스를 관리하고, 이벤트를 처리하는게 주 목적인 프레임워크다.   
+>> UIkit에서 주로 처리하는 사용자 이벤트로는 제스처 처리, 애니메이션, 그림 그리기, 이미지 처리, 텍스트 처리 등이 있다.   
+>> 또한 테이블뷰, 슬라이더, 버튼, 텍스트 필드, 얼럿 창 등 애플리케이션의 화면을 구성하는 요소도 포함한다.   
+>> 그렇기 때문에, 자주 사용하는 UIViewController, UIView(당연히 이를 상속하는 버튼, 텍스트 필드 등도 포함), UIAlertController등 앞에 UI가 붙는 클래스들을 사용하려면 반드시 UIkit을 상속해야 한다.   
+>> 
+~~~
+#ViewController와 UIKit가 왜 함께 쓰이는지에 대한 궁금증 해결
+ViewController는 UIViewController를 상속받습니다. UIViewController는 UIKit에 정의된 클래스이고, 사용자의 Interface와 Action을 관리합니다.
+import UIKit을 해줌으로써 컴파일러가 UIViewController 클래스를 찾아 빌드를 해줄 수 있습니다.
+~~~
 ## 4. Auto Layout
 
 ## 5. iOS의 View 체계
