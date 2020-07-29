@@ -1,6 +1,5 @@
 # ProjectA_MusicPlayer
->문서기반
-[Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
+
 ## 0.Hello!
 ### 배우는 내용
 - Xcode 사용법
@@ -72,6 +71,7 @@ func method(){
 >> 즉, 일반적으로 iOS개발을 위해 <code>Object-C</code> 혹은 <code>Swift</code>에서 상속하여 사용하는 <code>UIkit</code>, <code>Foundation</code>을 포함한 대부분의 클래스, 객체들이 모두 코코아 터치 프레임워크에 속한다.   
 >> 참고로 비슷한 이름의 <code>코코아 프레임워크</code>는 <code>macOS</code>개발 환경을 위한 프레임워크라고 한다. 그렇기 때문에, 아이폰, 아이패드 등의 <code>터치기반</code>의 iOS 개발환경에 <code>코코아 터치 프레임워크</code>라는 이름이 붙게된 것 같다.   
 >> <img src="cocoatouch.png" width="30%" height="30%" title="CocoaTouch" alt="CocoaTouch">   
+   
 > __UIKit 이란?__   
 >> <code>UI(User Interface)</code>라는 이름에서 알 수 있듯이, UIKit 프레임워크는 사용자의 인터페이스를 관리하고, 이벤트를 처리하는게 주 목적인 프레임워크다.   
 >> UIkit에서 주로 처리하는 사용자 이벤트로는 제스처 처리, 애니메이션, 그림 그리기, 이미지 처리, 텍스트 처리 등이 있다.   
@@ -104,6 +104,40 @@ func method(){
 >> #### 네트워킹
 >>> - URL Loading System: 표준 인터넷 프로토콜을 통해 URL과 상호작용하고 서버와 통신하는 작업
 >>> - Bonjour: 로컬 네트워크를 위한 작업   
+> __프레임워크 계층구조__   
+~~~swift
+import UIKit
+class test{
+    var value = DataFormatter()
+}
+~~~
+>> 위 코드에서 DataFormatter클래스는 Foundation 프레임워크에 포함된 클래스이다.   
+>> 그렇다면 사용하기 위해 <code>import Foundation</code>을 해야 한다.   
+>> 하지만 위 코드에서는 UIKit 만 import 했기 떄문에 오류가 발생해야 하나 코드는 정상적으로 작동한다.   
+> #### 이유를 알기 위해 프레임워크의 계층 구조에 대해서 알아보자
+>> <img src="framework.png" width="30%" height="30%" title="framework" alt="framework">   
+>> 코코아 프레임워크는 위와같은 계층 구조를 가지고, 하위 계층일수록 하드웨어에 친화적이고, 반대로 상위 계층일 수록 사용자 친화적이다.   
+>> 이 중 UIKit은 가장 위인 Cocoa Touch 계층이고 그보다 두단계 Foundation은 Core Service 계층이다. 그렇기 때문에 UIkit이 Foundation 프레임워크를 상속했을 가능성이 높다.   
+>> 실제로 UIKit 프레임워크에서 이미 Foundation 프레임워크를 import 했다. (키보드 Command 버튼을 누른 상태로 UIKit - Jump to Definition을 눌러보면 UIKit 정의를 확인할 수 있는데, import된 Foundation을 확인할 수 있다.)   
+
+> 각 계층의 프레임워크들
+> #### Cocoa Touch 계층
+>> 하위 계층의 프레임워크를 사용하여 애플리케이션을 직접 구현하는 프레임워크.   
+>> <code>UIKit</code>,<code>GameKit</code>, <code>MapKit</code>.  
+
+> #### Media 계층
+>> 상위 계층인 코코아 터치 계층에 그래픽 관련 서비스나 멀티미디어 관련 서비스를 제공.  
+>> <code>Core Graphics</code>, <code>Core Text</code>, <code>Core Audio</code>, <code>Core Animation</code>, <code>AVFoundation</code>.  
+
+> #### Core Service 계층
+>> 문자열 처리, 데이터 집합 관리, 네트워크, 주소록 관리, 환경 설정 등 핵심적인 서비스들을 제공.   
+>> 또한 GPS, 나침반, 가속도 센서나 자이로스코프 센서와 같이 디바이스의 하드웨어 특성에 기반한 서비스도 제공.   
+>> <code>Foundation</code>, <code>Core Foundation</code>, <code>Core Location</code>, <code>Core Motion</code>, <code>Core Animation</code>, <code>Core Data</code>.  
+
+> #### Core OS 계층
+>> 커널, 파일 시스템, 네트워크, 보안, 전원 관리, 디바이스 드라이버 등이 포함   
+>> iOS가 운영 체제로서 기능을 하기 위한 핵심적인 영역.   
+
 ## 4. Auto Layout
 
 ## 5. iOS의 View 체계
@@ -114,3 +148,6 @@ func method(){
 
 ## 8. Summary
 
+## 참조
+[Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
+<https://velog.io/@wan088/iOS-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-CocoaTouch-Foundation-UIkit-sjjzdqmte4>
