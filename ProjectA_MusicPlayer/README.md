@@ -168,12 +168,14 @@ class test{
 > #### MVC Pattern
 > MVC는 Model-View-Controller의 약자이다. 개발할 때 3가지 형태로 구분하여 개발하는 소프트웨어 개발 방법론이다.
 > ##### Model
+> 앱내에서 사용하는 데이터 (보통 구조체).  
 > 애플리케이션과 관련된 데이터를 캡슐화하고, 해당 데이터를 조작하고 처리하는 로직과 계산을 정의   
 > 무엇을 할 것 인지에 대한 정의
 > ##### View 
+> UI요소들을 나타냄 (UIView)   
 > 뷰 객체는 애플리케이션 내에서 사용자가 볼 수 있는 객체(모바일이라면 어플의 화면, 보여지는 부분)   
 > ##### Controller
-> 컨트롤러 객체는 하나 이상의 애플리케이션 <code>View</code> 객체와 하나 이상의 <code>Model</code> 객체 사이의 코디네이터 또는 중개자 역할을 한다.   
+> 컨트롤러 객체는 하나 이상의 애플리케이션 <code>View</code> 객체와 하나 이상의 <code>Model</code> 객체 사이의 코디네이터 또는 중계자(UIViewController) 역할을 한다.   
 
 > ##### MVC의 문제점과 파생된 패턴들
 > 다수의 View와 Model이 Controller를 통해 복잡하게 연결될 수 있기 때문에 Controller가 뚱뚱해지게 되는 Massive ViewController(대규모 MVC 어플리케이션)가 되어버리는 문제점이있다.    
