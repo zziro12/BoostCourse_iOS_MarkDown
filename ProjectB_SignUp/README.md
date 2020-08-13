@@ -21,7 +21,7 @@
 - Swift
     - Dictionary의 활용
     - guard 구문의 활용
-## 1. Human Interface Guidelines
+## 1. Human Interface Guidelines(H.I.G)
 
 ## 2. 화면의 전환
 
