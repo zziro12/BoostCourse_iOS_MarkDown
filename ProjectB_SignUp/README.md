@@ -137,7 +137,40 @@
 > 예를 들면 환경설정, 네트워크 연결처리, 데이터 관리 등등이 있다.    
 > 하지만 멀티 스레드 환경에서 동시에 싱글턴 객체를 참조할 경우 원치 않은 결과를 가져올 수 있다. 어떤 디자인 패턴을 활용하더라도 항상 긍정적인 면과 위험성을 함께 고려하여 활용해야한다
 ## 6. Target-Action
+### Target-Action 디자인 패턴
+
+> Target-Action 디자인 패턴은 iOS 환경에서 많이 사용하는 디자인 패턴 중 하나이다. Target-Action 디자인 패턴에서 객체는 이벤트가 발생할 때 다른 객체에 메시지를 보내는 데 필요한 정보를 포함한다.     
+> 액션은 특정 이벤트가 발생했을 때 호출할 메서드를 의미한다. 그리고 타겟은 액션이 호출될 객체를 의미한다.    
+> 이벤트 발생 시 전송된 메시지를 액션 메시지라고 하고, 타겟은 프레임워크 객체를 포함한 모든 객체가 될 수 있으나, 보통 컨트롤러가 되는 경우가 일반적이다.   
+    
+> 직접 타겟이 될 객체에 액션에 해당하는 메서드를 호출하면 될 텐데 굳이 Target과 Action을 지정하고 디자인 패턴으로 활용하는 이유는.  
+> 만약 특정 이벤트가 발생했을 때 abc라는 이름의 메서드를 호출해야 하는 상황이라고 생각해 보자. 그런데 이 abc라는 (액션)메서드는 A라는 클래스에도 정의되어 있고, B라는 클래스에도 정의되어 있는 경우가 있습니다. 이렇게 같은 메서드가 여러 클래스에 정의되어 있는 경우도 있고, 그런 클래스의 인스턴스가 여러개인 상황도 있다. 이런 여러 가지 상황에서 우리가 원하는 객체를 Target으로 지정하면 abc라는 액션을 실행할 객체를 상황에 따라서 선택할 수 있다.   
 
 ## 7. Gesture Recognizer
+### Gesture Recognizer
+
+> 제스처 인식기는 여러 제스처 관련 이벤트를 인식할 수 있다.   
+> 특정 제스처 이벤트가 일어날 때 마다 각 타깃에 맞는 액션 메시지를 보내어 제스처 관련 이벤트를 처리할 수 있다.   
+
+### UIGestureRecognizer class
+
+> UIGestureRecognizer 클래스는 특정 제스처 인식기에 대한 동작을 정의한다.   
+> 또한 델리게이트 객체를 활용하여 일부 동작을 더욱 세밀하게 사용자화 할 수 있다.   
+
+### UIGestureRecognizer의 하위 클래스
+
+> 아래의 7가지의 UIGestureRecognizer 하위 클래스를 통해 여러 제스처를 인식할 수 있다.
+
+- UITapGestureRecognizer : 싱글탭 또는 멀티탭 제스처
+- UIPinchGestureRecognizer : 핀치(Pinch) 제스처
+- UIRotationGestureRecognizer : 회전 제스처
+- UISwipeGestureRecognizer : 스와이프(swipe) 제스처
+- UIPanGestureRecognizer : 드래그(drag) 제스처
+- UIScreenEdgePanGestureRecognizer : 화면 가장자리 드래그 제스처
+- UILongPressGestureRecognizer : 롱프레스(long-press) 제스처
+
 
 ## 8. Summary
+
+## 참조
+[Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
