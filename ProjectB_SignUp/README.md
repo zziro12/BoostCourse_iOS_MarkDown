@@ -175,6 +175,7 @@
 ### UIImagePickerController
 ### UIDatePicker
 ### Singleton
+### UITapGestureRecognizer
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
