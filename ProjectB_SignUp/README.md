@@ -177,6 +177,11 @@
 ### Singleton
 ### UITapGestureRecognizer
 
+해야할것
+싱글톤으로 레이블 데이터 전달하는거 알아보기, 두번째페이지 스택뷰 써야하는지.   
+다 구현해놓고 화면전환 알아보기(데이터 저장하고 화면전환, 취소할때 데이터저장하지 않고 전환)
+두번째뷰에서 세번째뷰 화면전환할때 효과
+
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
 
