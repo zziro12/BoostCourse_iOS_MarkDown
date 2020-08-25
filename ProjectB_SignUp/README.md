@@ -182,6 +182,7 @@
 레이아웃 가이드라인 탑?바텀?
 다 구현해놓고 화면전환 알아보기(데이터 저장하고 화면전환, 취소할때 데이터저장하지 않고 전환)
 두번째뷰에서 세번째뷰 화면전환할때 효과
+인강듣는중
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
