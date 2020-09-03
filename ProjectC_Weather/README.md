@@ -1,6 +1,19 @@
 # ProjectC_Weather
 ## 0. Hello
-### 배울내용
+### 새로 배우는 내용
+ - UIKit
+    - UITableView
+    - UITableViewCell
+    - View Reuse
+    - Table View Cell Customize
+- Swift
+    - Codable
+    - JSONDecoder
+### 되짚어볼 개념
+- Design Patterns
+    - Delegation Pattern
+- View Transition
+    - Navigation Interface
 ## 1. 테이블뷰
 ## 2. 뷰의 재사용
 ## 3. 스토리보드 세그
