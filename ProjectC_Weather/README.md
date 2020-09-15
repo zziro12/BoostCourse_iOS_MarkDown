@@ -162,7 +162,11 @@ func tableView(UITableView, moveRowAt: IndexPath, to: IndexPath)
 
 
 ## 5. Summary
-
+### 프로젝트C 준비
+해야할것
+세개의 뷰 컨트롤러 필요( 첫화면, 국가선택했을때화면, 도시를 선택했을때 화면)
+화면전환 네비게이션을 이용하는 것이 좋아보임
+(네비게이션바색상, 타이틀색상변경), 테이블뷰,셀 추가 ,>>>>>>  커스텀셀 만들어야됨 ,그리고 데이터가 보이게끔 코드 넣고확인
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
