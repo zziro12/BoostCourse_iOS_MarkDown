@@ -166,10 +166,12 @@ func tableView(UITableView, moveRowAt: IndexPath, to: IndexPath)
 해야할것
 세개의 뷰 컨트롤러 필요( 첫화면, 국가선택했을때화면, 도시를 선택했을때 화면)
 화면전환 네비게이션을 이용하는 것이 좋아보임
-(네비게이션바색상, 타이틀색상변경), 테이블뷰,셀 추가, UITableview 연결, extension dataSource,delegate 하고 프로토콜 (꼭선언해야하는 메소드 선언, numberOfRowsInSection, cellForRowAt)
-커스텀셀 만들고 identifier 커스텀 셀로 수정하고, cellForRowAt 안에 코드 수정하고 , 첫번째 뷰 json 데이터가 보이게끔 코드 넣고확인(json데이터 구조 만들고 그 구조로 받고 보여주기)
-우선 두번째뷰에 테이블뷰(델리게이트, 데이타소스), 테이블뷰셀(커스텀셀도 만들고)로 레이아웃을 잡고, 첫번째뷰에서 셀을 눌렀을때 세그를 통해 두번째뷰를 보여주고 ,
->>>> 첫번째뷰에서 데이터를 넘기는거 테스트중- 눌렀을때 이름받고 그 이름을 이용해서!! 뷰디드로드에서  json데이터를 받아올수있게끔
+(네비게이션바색상, 타이틀색상변경), 테이블뷰,셀 추가, UITableview 연결, extension dataSource,delegate 하고 프로토콜 (꼭선언해야하는 메소드 선언, numberOfRowsInSection, cellForRowAt)   
+커스텀셀 만들고 identifier 커스텀 셀로 수정하고, cellForRowAt 안에 코드 수정하고 , 첫번째 뷰 json 데이터가 보이게끔 코드 넣고확인(json데이터 구조 만들고 그 구조로 받고 보여주기)   
+우선 두번째뷰에 테이블뷰(델리게이트, 데이타소스), 테이블뷰셀(커스텀셀도 만들고)로 레이아웃을 잡고, 첫번째뷰에서 셀을 눌렀을때 세그를 통해 두번째뷰를 보여주고 ,   
+첫번째뷰에서 데이터를 넘기는거 테스트해보기, json데이터를 받기위해 City를 선언- 첫번째뷰에서 눌렀을때 이름받고 그 이름을 이용해서!! 뷰디드로드에서  json데이터를 받아올수있게끔.   
+>> CodingKeys를 이용하여 더 매끄럽게 설정, 강수확률에 따라 적절한 이미지 넣을수있게 코딩
+>> 가능하면 MVVM패턴적용..
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
