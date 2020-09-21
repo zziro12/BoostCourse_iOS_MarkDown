@@ -37,11 +37,11 @@
 >> 이 프레임워크를 사용하여 화면에 표시 및 재생할 에셋을 검색하고 이미지 또는 비디오를 편집하거나 앨범, 특별한 순간 및 iCloud 공유 앨범과 같은 에셋을 사용하여 작업할 수 있습니다.   
 
 ### 에셋
->> <img src="asset.png" width="30%" height="30%" title="asset" alt="asset">  
+>> <img src="asset.png" width="100%" height="50%" title="asset" alt="asset">  
 ### 에셋 컬렉션 (컬렉션)
->> <img src="assetCollection.png" width="30%" height="30%" title="assetCollection" alt="assetCollection">  
+>> <img src="assetCollection.png" width="100%" height="50%" title="assetCollection" alt="assetCollection">  
 ### 컬렉션 리스트
->> <img src="collectionList.png" width="30%" height="30%" title="collectionList" alt="collectionList">  
+>> <img src="collectionList.png" width="100%" height="50%" title="collectionList" alt="collectionList">  
 ## 2. 동시성(Concurrency) 프로그래밍
  
 ## 3. 스크롤뷰
