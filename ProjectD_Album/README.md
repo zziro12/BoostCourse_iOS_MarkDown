@@ -29,19 +29,19 @@
  
 ## 1. Photos
 ### Photos 프레임워크
->> iOS 및 tvOS에서 iCloud 사진 라이브러리를 포함하여 사진 및 비디오에 직접 접근하기 위한 Photos 프레임워크에 대해 알아봅니다.
+> iOS 및 tvOS에서 iCloud 사진 라이브러리를 포함하여 사진 및 비디오에 직접 접근하기 위한 Photos 프레임워크에 대해 알아봅니다.
 
 ### Photos
->> Photos 프레임워크는 iOS 및 macOS에서 사진 애플리케이션, 사진 확장 기능을 지원하는 클래스를 제공합니다.   
->> Photos 프레임워크를 통해 iOS 및 tvOS에서 iCloud 사진 라이브러리를 포함하여 사진 및 비디오에 직접 접근할 수 있습니다.   
->> 이 프레임워크를 사용하여 화면에 표시 및 재생할 에셋을 검색하고 이미지 또는 비디오를 편집하거나 앨범, 특별한 순간 및 iCloud 공유 앨범과 같은 에셋을 사용하여 작업할 수 있습니다.   
+> Photos 프레임워크는 iOS 및 macOS에서 사진 애플리케이션, 사진 확장 기능을 지원하는 클래스를 제공합니다.   
+> Photos 프레임워크를 통해 iOS 및 tvOS에서 iCloud 사진 라이브러리를 포함하여 사진 및 비디오에 직접 접근할 수 있습니다.   
+> 이 프레임워크를 사용하여 화면에 표시 및 재생할 에셋을 검색하고 이미지 또는 비디오를 편집하거나 앨범, 특별한 순간 및 iCloud 공유 앨범과 같은 에셋을 사용하여 작업할 수 있습니다.   
 
 ### 에셋
->> <img src="asset.png" width="100%" height="50%" title="asset" alt="asset">  
+> <img src="asset.png" width="100%" height="50%" title="asset" alt="asset">  
 ### 에셋 컬렉션 (컬렉션)
->> <img src="assetCollection.png" width="100%" height="50%" title="assetCollection" alt="assetCollection">  
+> <img src="assetCollection.png" width="100%" height="50%" title="assetCollection" alt="assetCollection">  
 ### 컬렉션 리스트
->> <img src="collectionList.png" width="100%" height="50%" title="collectionList" alt="collectionList">  
+> <img src="collectionList.png" width="100%" height="50%" title="collectionList" alt="collectionList">  
 ## 2. 동시성(Concurrency) 프로그래밍
  
 ## 3. 스크롤뷰
