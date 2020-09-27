@@ -190,6 +190,26 @@
   - 연산 대기열 (Operation Queue) : 비동기적으로 실행되어야 하는 작업을 객체 지향적인 방법으로 사용합니다.   
   - Thread : 멀티스레드 프로그래밍을 위한 애플에서 제공하는 스레드 클래스입니다.   
   
+  ### Operation Queue
+  > Operation은 태스크(작업)와 관련된 코드와 데이터를 나타내는 추상 클래스입니다.   
+  > Operation Queue는 연산(Operation)의 실행을 관리합니다. 대기열(Queue)에 추가한 동작은 직접 제거할 수 없습니다.   
+  > 연산(Operation)은 작업이 끝날 때까지 대기열에 남아 있습니다. 연산(Operation)을 대기열에서 제거하는 방법은 연산(Operation)을 취소하는 방법뿐입니다.    
+  > 취소하는 방법은 연산 객체(Operation Object)의 cancel()메서드를 호출하거나 Oeration Queue의 cancelAllOperations() 메서드를 호출하여 대기열에 있는 모든 연산(Operation)을 취소하는 방법이 있습니다.   
+  > 그리고 실행 중인 연산(Operation)의 경우 연산 객체(Operation Object)의 취소 상태를 확인하고 실행 중인 연산(Operation)을 중지하고 완료 상태로 변경됩니다.   
+
+### 연산 객체(Operation Object)
+> 연산 객체 (Operation Object)는 애플리케이션에서 수행하려는 연산(Operation)을 캡슐화하는 데 사용하는 Foundation 프레임 워크의 Operation 클래스 인스턴스입니다.   
+
+### OperationQueue의 주요 메서드/프로퍼티
+#### 특정 Operation Queues 가져오기
+ - current : 현재 작업을 시작한 Operation Queue를 반환합니다.
+~~~ 
+class var current: OperationQueue? { get }​ 
+~~~
+ - main : 메인 스레드와 연결된 Operation Queue를 반환합니다.
+~~~
+class var main: OperationQueue { get }
+~~~
 ## 3. 스크롤뷰
 
 ## 4. 네비게이션 아이템
