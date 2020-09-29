@@ -37,7 +37,7 @@
 > 이 프레임워크를 사용하여 화면에 표시 및 재생할 에셋을 검색하고 이미지 또는 비디오를 편집하거나 앨범, 특별한 순간 및 iCloud 공유 앨범과 같은 에셋을 사용하여 작업할 수 있습니다.   
 
 ### 에셋
-> <img src="asset.png" width="100%" height="50%" title="asset" alt="asset">  
+> <img src="asset.png" width="100%" height="50%" title="asset" alt="asset">.  
 ### 에셋 컬렉션 (컬렉션)
 > <img src="assetCollection.png" width="100%" height="50%" title="assetCollection" alt="assetCollection">  
 ### 컬렉션 리스트
@@ -254,6 +254,25 @@ class var main: OperationQueue { get }
 > 그리고 데이터소스 객체는 최소한 collectionView(_:numberOfItemsInSection:)과 collectionView(_:cellForItemAt:) 메서드를 구현해야 하며 나머지 메서드는 선택사항입니다.   
 #### 델리게이트
 > 컬렉션뷰 델리게이트 프로토콜은 컬렉션뷰에서 셀의 선택 및 강조표시를 관리하고 해당 셀에 대한 작업을 수행할 수 있는 메서드를 정의합니다. 이 프로토콜의 메서드는 모두 선택사항입니다.   
+### UICollectionViewFlowLayout
+> UICollectionViewFlowLayout 클래스를 사용하면 컬렉션뷰의 셀을 원하는 형태로 정렬할 수 있습니다.   
+> 플로우 레이아웃은 레이아웃 객체가 셀을 선형 경로에 배치하고 최대한 이 행을 따라 많은 셀을 채우는것을 의미합니다.   
+> 현재 행에서 레이아웃 객체의 공간이 부족하면 새로운 행을 생성하고 거기에서 레이아웃 프로세스를 계속 진행합니다.   
+ - 플로우 레이아웃 수직 스크롤
+> <img src="flowlayoutVerticality.png" width="100%" height="50%" title="flowlayoutVerticality" alt="flowlayoutVerticality">.  
+ - 플로우 레이아웃 수평 스크롤
+> <img src="flowlayoutHorizontality.png" width="100%" height="50%" title="flowlayoutHorizontality" alt="flowlayoutHorizontality">.  
+### 플로우 레이아웃 구성 단계
+> 1. 플로우 레이아웃 객체를 작성해 컬렉션뷰의 레이아웃 객체로 지정합니다.
+> 2. 셀의 너비와 높이를 구성합니다.
+> 3. 필요한 경우 셀의 간격을 조절합니다.
+> 4. 원할 경우 섹션 헤더 혹은 섹션 푸터를 크기를 지정합니다.
+> 5. 레이아웃의 스크롤 방향을 설정합니다.
+> Tip : 플로우 레이아웃은 대부분 프로퍼티의 기본값을 가지고 있습니다. 하지만 셀의 너비와 높이는 모두 0으로 지정되어 있기 때문에 셀의 크기는 지정해주어야 합니다. 그렇지 않을 경우 셀의 너비와 높이의 기본값이 0이기 때문에 셀이 화면에 보이지 않을 수도 있습니다.
+
+### UICollectionViewDelegateFlowLayout
+> UICollectionViewDelegateFlowLayout 프로토콜은 UICollectionViewFlowLayout 객체와 상호작용하여 레이아웃을 조정할 수 있는 메서드가 정의되어 있습니다. 이 프로토콜의 메서드는 셀의 크기와 셀 간의 사이 간격을 정의합니다. 이 프로토콜의 메서드는 전부 선택사항입니다.   
+
 
 ## 6. 자료 공유하기
 
