@@ -273,13 +273,15 @@ class var main: OperationQueue { get }
 ### UICollectionViewDelegateFlowLayout
 > UICollectionViewDelegateFlowLayout 프로토콜은 UICollectionViewFlowLayout 객체와 상호작용하여 레이아웃을 조정할 수 있는 메서드가 정의되어 있습니다. 이 프로토콜의 메서드는 셀의 크기와 셀 간의 사이 간격을 정의합니다. 이 프로토콜의 메서드는 전부 선택사항입니다.   
 
-
 ## 6. 자료 공유하기
-
+### UIActivityViewController
+> 애플리케이션 내에서 특정 아이템을 복사하거나 외부 SNS로 공유하는 내보내기 서비스는 사용자가 아이템을 다양한 방식으로 활용하도록 도와줍니다.    
+> iOS 6 이상부터 사용 가능한 UIActivityViewController 클래스는 아래 이미지와 같은 내보내기 서비스를 손쉽게 사용할 수 있도록 해줍니다.    
+> 이번 문서에서는 UIActivityViewController 클래스에서 제공하는 서비스 및 사용 방법에 대해 알아봅시다.   
 ## 7.Summary
 ### 프로젝트D 준비
 해야할것.     
-
+앱아이콘 설정, 레이아웃구성부터, 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
 
