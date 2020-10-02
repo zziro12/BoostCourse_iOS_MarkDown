@@ -281,7 +281,7 @@ class var main: OperationQueue { get }
 ## 7.Summary
 ### 프로젝트D 준비
 해야할것.     
-앱아이콘 설정, 레이아웃구성부터, 
+앱아이콘 설정, 레이아웃구성부터,  콜렉션뷰에 사진띄우기, 셀레이아웃설정하는데 레이아웃이 안맞음
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
 
