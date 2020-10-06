@@ -286,7 +286,7 @@ class var main: OperationQueue { get }
 >> 이런거에 대한 답을 찾을때 어떻게 접근해야하는지..
 >> 위내용에대해서는 프로젝트 주석을 통해질문
 >> 이제 다음에 뭐해야하는지 생각해보기
-첫화면인 앨범띄우기
+첫화면인 앨범리스트 띄우는것부터 해보기
 
 ## 참조
 [Naver_BoostCourse_iOS](https://www.edwith.org/boostcourse-ios/joinLectures/12899,"네이버")
